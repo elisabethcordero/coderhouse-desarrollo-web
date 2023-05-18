@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INKsumos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="shortcut icon" href="../media/iconos/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/33b283f45e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <img class="logo" src="./media/logos/logo inksumos horizontal.png" alt="Inksumos" width="150">
+            <div class="search">
+                <input class="search-input" type="text" placeholder="¿Qué producto estás buscando?">
+                <button type="submit" class="search-btn">Buscar</button>
+            </div>
+            <div class="icono">
+                <a href="#">
+                <i class="fa-solid fa-truck fa-2xl fa-hover"></i>
+                </a>
+                <a href="#">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                </a>
+                <a href="#">
+                <i class="fa-solid fa-user fa-2xl"></i>
+                </a>
+            </div>
+        </div>
+        <section>
+            <nav>
+                <ul class="menu">
+                    <li>
+                     <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./quienes-somos.html">¿Quiénes somos?</a>
+                    </li>
+                    <li>
+                        <a href="./productos.html">Productos</a>
+                    </li>
+                    <li>
+                       <a href="./comprar.html">¿Cómo comprar?</a> 
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a> 
+                    </li>
+        </section>
+    </header>
+    <hr>
+    <main>
+        
+        <fieldset class="formulario1"><legend><strong>Contáctanos!</strong></legend>
+            <form action="">
+                <div>
+                    <label for="nombre">Nombre:*</label>
+                    <input type="text" name="nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Apellido:*</label>
+                    <input type="text" name="apellido" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:*</label>
+                    <input type="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Celular:</label>
+                    <input type="text" name="phone">
+                </div>
+                <br>
+                <div>
+                    <label for="printer">Marca de Impresora</label>
+                    <br>
+                    <select name="printer">
+                        <option value="epson">EPSON</option>
+                        <option value="hp">HEWLETT PACKARD</option>
+                        <option value="brother">BROTHER</option>
+                        <option value="canon">CANON</option>
+                        <option value="lex">LEXMARK</option>
+                    ></select>
+                </div>
+                <br>
+                <div>
+                    <label for="envio">Metodo de envío:
+                        <br>
+                        <input type="radio" name="envio" value="domicilio">Entega en domicilio
+                        <br>
+                        <input type="radio" name="envio" value="sucursal">Retiro en sucursal
+                        <br>
+                        <input type="radio" name="envio" value="tienda">Retiro en tienda
+                        <br>
+                    </label>
+                </div>
+                <br>
+                <div><label for="Comentarios">Dejanos tu mensaje ⬇</label>
+                    <br>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="condiciones">Acepto las condiciones de compra</label>
+                    <input type="checkbox" name="condic">
+                </div>
+                <br>
+    
+                <div>
+                    <a href="#">
+                        <button>Enviar Formulario</button>
+                    </a>
+                </div>
+            </form>
+        </fieldset>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <img class="logo" src="./media/logos/logo inksumos horizontal.png" alt="Inksumos" width="150">
+            <h5>DATOS DE CONTACTO</h5>
+            <p>WhatsApp +54 11 8493-2277</p>
+            <p>Av. Argentina 1198, Merlo. Buenos Aires</p>
+            <p>info@inksumos.com.ar</p>
+        </div>
+    </footer>
+
+</body>
+</html>
