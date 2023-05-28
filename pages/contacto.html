@@ -113,21 +113,18 @@
         <div class="main">
             <div class="container">
                 <div class="row">
-                    <h1 class="ps-5 contacto" >CONTÁCTANOS!</h1>
-                </div>
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-6 pt-5">
+                    <div class="col-md-12 col-lg-8 col-xl-6 col-xs-12 col-sm-12 pt-2 mx-auto">
                         <form action="">
+                            <h1 class="contacto mb-4" >CONTÁCTANOS!</h1>
                             <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
                                 <label for="floatingInput">Nombre</label>
                             </div>
-                            <div class="form-floating">
+                            <div class="form-floating mb-3">
                                 <input type="text" class="form-control" id="floatingPassword" placeholder="lastname" required>
                                 <label for="floatingPassword">Apellido</label>
                             </div>   
-                            <div class="form-floating">
+                            <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="floatingPassword" placeholder="address">
                                     <label for="floatingPassword">Dirección</label>
                             </div>
@@ -135,11 +132,11 @@
                                 <input type="email" class="form-control" id="floatingInput" placeholder="email" required>
                                 <label for="floatingInput">Correo Electrónico</label>
                             </div>
-                            <div class="form-floating">
-                                <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
                                 <label for="floatingPassword">Celular</label>
                             </div>
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select form-select-lg mb-4" aria-label="Default select example">
                                 <option selected>Seleccione Modelo de Impresora</option>
                                 <option value="1">EPSON</option>
                                 <option value="2">HEWLETT PACKARD</option>
@@ -148,44 +145,26 @@
                             </select>
                             <div>
                                 <label for="envio">Metodo de envío:</label>
-                                <div class="input-group">
-                                    <div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Text input with radio button">
+                                <div class="form-check mt-2">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Envio a domicilio
+                                    </label>
                                 </div>
-                                <div class="input-group">
-                                    <div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Text input with radio button">
-                                </div>
-                                <div class="input-group">
-                                    <div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="radio" value="" aria-label="Radio button for following text input">
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Text input with radio button">
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      Retiro en sucursal
+                                    </label>
                                 </div>
                             </div>
-                            <div>
-                                <label for="mensaje">Escribe aquí tu mensaje:</label>
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                                    <label for="floatingTextarea2"></label>
-                                  </div>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Escribe aquí tu mensaje:</label>
                             </div>
-                            <div>
-                                <label for="condiciones">Acepto las condiciones de compra</label>
-                                <div class="input-group mb-3">
-                                    <div   div class="input-group-text">
-                                        <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <a href="#">
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
-                                </a>
+
+                            <div class="form-floating mt-3">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
                             </div>
                         </form>
                     </div>
