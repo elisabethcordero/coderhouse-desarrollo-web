@@ -17,36 +17,61 @@
 <body>
     <div class="grid-container">
         <div class="header">
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e9eff3de;">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid navHeader">
                     <img class="logo" src="./media/logos/logo inksumos horizontal.png" alt="Inksumos" width="150">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav navbar-expand-lg mx-auto mb-2 mb-lg-0">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav navbar-expand-sm mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <form class="d-flex" role="search">
-                                    <input class="form-control me-2 flex-fill inputHeader" type="search" placeholder="¿Qué producto estás buscando?" aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+                                    <div class="input-group input-group-lg my-auto inputHeader">
+                                        <input type="text" class="form-control flex-fill" placeholder="¿Qué producto estás buscando?" aria-describedby="basic-addon2">
+                                        <button class="btn btn-outline-secondary" type="button" title="Buscar"><i class="fa-solid fa-search fa-xl me-1"></i></button>
+                                    </div>
                                 </form>
                             </li>
                         </ul>
                         <div class="iconosHeader">
-                            <a href="#"><i class="fa-solid fa-truck fa-2xl fa-hover"></i></a>
-                            <a href="#"><i class="fa-solid fa-cart-shopping fa-2xl"></i></a>
-                            <a href="#"><i class="fa-solid fa-user fa-2xl"></i></a>
+                            <a href="#" title="Carrito de compras"><i class="fa-solid fa-cart-shopping fa-2xl me-3"></i></a>
+                            <a href="#" title="Usuario"><i class="fa-solid fa-user fa-2xl me-1"></i></a>
                         </div>
-                        
+
+                        <ul class="navbar-nav mx-auto p-2 grid gap-0 column-gap-2 mobileOnlyNav">
+                            <li class="nav-item"> 
+                                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./pages/quienes-somos.html">¿QUIÉNES SOMOS?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./pages/productos.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./pages/comprar.html">¿CÓMO COMPRAR?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./pages/contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+
                     </div>
+                  </div>
                 </div>
             </nav>
-
+           
         </div>
         <div class="grid-nav">
-            <nav class="navbar navbar-expand-xl menuNav">
-                <div class="container-fluid">
-                <div>
+            <nav class="navbar navbar-expand-md ">
+                <div class="container-fluid px-0">
+                <div class="collapse navbar-collapse menuNav" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto p-2 grid gap-0 column-gap-2">
                         <li class="nav-item"> 
                             <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
@@ -70,7 +95,7 @@
         </div>
         <div class="aside">
             <h1 class="tituloProductos">30% OFF!!</h1>  
-                <div class="card mt-4 me-3 cardHp" style="width: 18rem;">
+                <div class="card me-3 cardHp" style="width: 18rem;">
                     <img src="../media/cartuchos/hp 60xl.jpg" class="card-img-top" alt="HP60XL">
                     <div class="card-body">
                         <h5 class="card-title">Set de cartuchos HP 60XL</h5>
