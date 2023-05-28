@@ -189,10 +189,12 @@ body {
 
 .menu li a:hover {
     color: rgb(8, 8, 8);
-   border: rgb(52, 28, 117);
+    border: rgb(52, 28, 117);
 }
 
-
+.navbar-nav .nav-link.active {
+    text-shadow: 2px 2px 4px #2e2e2e;
+}
 
 .masVendidos {
     padding: 20px;
