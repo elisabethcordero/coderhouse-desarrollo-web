@@ -145,78 +145,11 @@ body {
   cursor: pointer; 
 }
 
-.formulario1{
-    margin: 20px;
-    padding: 20px;
-    width: 600px;
-    font-size: x-large;
-    display:flex;
-}
-
-.menu {
-    background: linear-gradient(to right, cyan, magenta);
-    display: flex;
-    margin: auto 0;
-    list-style: none;
-    text-align: center;
-    height: 60px;
-    padding-top: 20px;
-    border: #130f50 1px solid;
-    justify-content: center;
-    border-left: 0px;
-    border-right: 0px;
-}
-
-.menu li {
-    display: inline-block;
-    text-align: center;
-    font-family: 'Courgette', cursive;
-    font-family: 'Montagu Slab', serif;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.menu li a {
-    padding: 5px 30px;
-    margin: 10px 30px;
-    color: rgb(12, 12, 12);
-    text-decoration: none;
-    border: solid 1px black;
-    border-radius: 2px;
-    font-size: 18px;
-    background-color: rgb(213, 233, 233);
-    font-weight: bold;
-}
-
-.menu li a:hover {
-    color: rgb(8, 8, 8);
-    border: rgb(52, 28, 117);
-}
-
 .navbar-nav .nav-link.active {
     text-shadow: 2px 2px 4px #2e2e2e;
 }
 
-.masVendidos {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.caja {
-    margin: 5px;
-}
-
-.caja img{
-    width: 280px;
-    height: 280px;
-    margin: 10px;
-    justify-content: center;
-    padding: 10px;
-    background-color: white;
-} 
-
-.parrafo1 {
+.parrafoQuienesSomos {
     padding: 10px;
     margin: 10px;
     line-height: 1.5;
@@ -225,7 +158,7 @@ body {
     font-family:sans-serif;
 }
 
-.parrafo2 {
+.parrafoFooter {
     padding: 10px;
     text-align:center;
     font-size: 18px;
@@ -245,6 +178,9 @@ body {
     font-size: 25px;
     font-family:sans-serif;
 }
+.listaCompra ol li {
+    font-family: sans-serif;
+}
 
 .tituloProductos {
     font-family: 'Montserrat', sans-serif;
@@ -258,18 +194,6 @@ body {
     border-radius: black 2px;
     display: flex;
     align-self:center;
-}
-
-button {
-    background-color: #008CBA;
-    padding: 10px;
-}
-
-.tituloVideos {
-    margin: auto;
-    width: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px;
 }
 
 @media only screen and (max-width: 768px) {
