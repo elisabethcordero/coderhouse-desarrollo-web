@@ -11,7 +11,13 @@
     display: flex;
     align-self:center;
 }
-h2{
+.tituloCard {
+    font-size: 1.25rem;
+}
+.precioCard {
+    font-size: 1.5rem;
+}
+.tituloGrad {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -23,5 +29,4 @@ h2{
     display: flex;
     align-self:center; 
     background: $bg_grad;
-     
 }

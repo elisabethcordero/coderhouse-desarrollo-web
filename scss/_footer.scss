@@ -18,9 +18,11 @@
         transition: all 1s;
       }
     }
-    h6{
+    .direccionFooter {
+      font-size: 1rem;
       font-family: 'Montserrat', sans-serif;
       font-weight: bold;
+      margin-bottom: 2px;
     }
     .iconosRedes {
       a {
